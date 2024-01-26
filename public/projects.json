@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "image": "image1.jpg",
+      "name": "Project 1",
+      "client": "Client A",
+      "server": "Server A",
+      "live": true,
+      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+    },
+    {
+      "id": 2,
+      "image": "image2.jpg",
+      "name": "Project 2",
+      "client": "Client B",
+      "server": "Server B",
+      "live": false,
+      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+    },
+    {
+      "id": 3,
+      "image": "image3.jpg",
+      "name": "Project 3",
+      "client": "Client C",
+      "server": "Server C",
+      "live": true,
+      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+    },
+    {
+      "id": 4,
+      "image": "image4.jpg",
+      "name": "Project 4",
+      "client": "Client D",
+      "server": "Server D",
+      "live": true,
+      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+    },
+    {
+      "id": 5,
+      "image": "image5.jpg",
+      "name": "Project 5",
+      "client": "Client E",
+      "server": "Server E",
+      "live": false,
+      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+    },
+    {
+      "id": 6,
+      "image": "image6.jpg",
+      "name": "Project 6",
+      "client": "Client F",
+      "server": "Server F",
+      "live": true,
+      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+    }
+  ]
+  
