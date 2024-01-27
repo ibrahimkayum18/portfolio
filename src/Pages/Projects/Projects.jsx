@@ -23,9 +23,13 @@ const Projects = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title overflow-hidden">{item.name}</h2>
-
+              <div className="flex flex-wrap gap-1">
+                {
+                  item.technology.map((main , index) => <button className="badge badge-outline" key={index}>{main}</button>)
+                }
+              </div>
               <div className="flex items-center gap-3 overflow-hidden" data-aos="fade-left">
-                <div className="badge badge-outline">
+                <div className="underline">
                   <a
                     href={item.client}
                     target="_blank"
@@ -39,7 +43,7 @@ const Projects = () => {
               <div className="card-actions justify-end overflow-hidden" data-aos="fade-right">
                 <div className="flex items-center gap-3">
                   <FaArrowRight className="animate-ping" />
-                  <div className="badge badge-outline">
+                  <div className="underline">
                     <a
                       href={item.server}
                       target="_blank"
@@ -51,7 +55,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="flex items-center gap-3 overflow-hidden" data-aos="fade-left">
-                <div className="badge badge-outline">
+                <div className="underline">
                   <a href={item.live} target="_blank" rel="noopener noreferrer">
                     Live Link of the Project
                   </a>

@@ -6,7 +6,7 @@
       "client": "https://github.com/ibrahimkayum18/Grandeur-Home-Client",
       "server": "https://github.com/ibrahimkayum18/Grandeur-Home-Server",
       "live": "https://final-assignment-136ef.web.app",
-      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+      "technology": ["React", "Node JS", "JavaScript", "MongoDB", "Express JS",  "HTML5", "Tailwind CSS"]
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "client": "https://github.com/ibrahimkayum18/report-safe",
       "server": "https://github.com/ibrahimkayum18/report-safe-server",
       "live": "https://report-safe.web.app",
-      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+      "technology": ["React", "Node JS", "JavaScript", "MongoDB", "Express JS",  "HTML5", "Tailwind CSS"]
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "client": "https://github.com/ibrahimkayum18/Job-Hunt-Client",
       "server": "https://github.com/ibrahimkayum18/Job-Hunt-Server",
       "live": true,
-      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+      "technology": ["React", "Node JS", "JavaScript", "MongoDB", "Express JS",  "HTML5", "Tailwind CSS"]
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "client": "https://github.com/ibrahimkayum18/car-doctor-client",
       "server": "https://github.com/ibrahimkayum18/car-doctor-server",
       "live": "https://spiritual-ray.surge.sh",
-      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+      "technology": ["React", "Node JS", "JavaScript", "MongoDB", "Express JS",  "HTML5", "Tailwind CSS"]
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "client": "https://github.com/ibrahimkayum18/Electronics-gadget-shop-client",
       "server": "https://github.com/ibrahimkayum18/Electronics-gadget_shop-server",
       "live": "mundane-wish.surge.sh",
-      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+      "technology": ["React", "Node JS", "JavaScript", "MongoDB", "Express JS",  "HTML5", "Tailwind CSS"]
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "client": "https://github.com/ibrahimkayum18/House-Hunter/tree/main/client",
       "server": "https://github.com/ibrahimkayum18/House-Hunter/tree/main/server",
       "live": "https://house-hunter-f6581.web.app",
-      "technology": ["React JS", "Node JS", "JavaScript", "MongoDB", "Express JS", "Tailwind CSS", "HTML5"]
+      "technology": ["React", "Node JS", "JavaScript", "MongoDB", "Express JS",  "HTML5", "Tailwind CSS"]
     }
   ]
   
