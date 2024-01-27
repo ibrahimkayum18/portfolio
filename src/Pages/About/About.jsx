@@ -12,22 +12,23 @@ const About = () => {
         })
     },[])
   return (
-    <div className="">
-      <section className=" pt-16 py-8 px-6">
+    <div className="" data-aos="fade-up">
+      <section className=" pt-10 py-8 px-6">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold mb-1 ">S M Ibrahim Kayum</h2>
-          <span className="gradient text-2xl font-semibold ">
-            WEB DEVELOPER
-          </span>
+          <span className="text-4xl font-bold mb-1 gradient">WEB DEVELOPER</span>
+          <h2 className=" text-xl font-semibold ">
+            Dhaka, Bangladesh
+          </h2>
           <div className="flex flex-col md:flex-row items-center lg:my-10">
-            <div className="md:flex justify-center items-center gap-5 w-full mb-4 md:mb-0">
+            <div className="md:flex justify-center items-center gap-5 w-full mb-4 md:mb-0" >
               <img
                 src="https://i.ibb.co/9w7HLF9/1702063616077-removebg-preview-1.png" // Replace with the actual path to your profile image
                 alt="Profile"
                 className=" h-80 w-80 mx-auto md:mx-0"
+                data-aos="fade-left"
               />
-              <div className="mt-5 md:mt-0">
-                <span className="gradient text-3xl font-semibold ">SKILLS</span>
+              <div className="mt-5 md:mt-0" data-aos="fade-right">
+                <span className="gradient text-3xl font-semibold ">Tools I Frequently Use</span>
                 <div className="flex flex-wrap gap-3 lg:gap-6 mt-5">
                     {
                         skills.map((item, index) => <div key={index} className="text-center">
@@ -40,7 +41,7 @@ const About = () => {
             </div>
             <div></div>
           </div>
-          <div className="mt-7">
+          <div className="mt-7" data-aos="fade-up">
             <p className="text-lg leading-relaxed">
               Hi there! I'm S M Ibrahim Kayum, a passionate web developer specializing
               in the MERN stack. With a strong foundation in MongoDB,
@@ -61,7 +62,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[rgba(0,0,0,0.6)] px-5">
+      <section className="w-full bg-[rgba(0,0,0,0.6)] px-5" data-aos="fade-left">
         <h2 className="gradient text-3xl font-bold pt-5">Educational Background</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
             <div>

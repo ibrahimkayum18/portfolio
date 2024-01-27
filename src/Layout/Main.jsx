@@ -78,11 +78,11 @@ const Main = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-64 md:w-80 min-h-full bg-zinc-900 text-white fixed py-20 lg:pt-10 z-20">
-            <div className=" mx-auto mb-10">
-              {/* <h2 className="text-white text-3xl text-center lg:visible">S M Ibrahim Kayum</h2> */}
+          <ul className="menu p-4 w-64 md:w-80 min-h-full text-white fixed py-12 lg:pt-10 z-40 bg-gradient">
+            <div className=" mx-auto pb-10">
+              <h2 className="text-white text-3xl font-bold mb-8 text-center hidden lg:block gradient">S M Ibrahim Kayum</h2>
               <img
-                className="rounded-full w-40 h-40"
+                className="rounded-full w-40 h-40 mx-auto mt-10 lg:mt-0"
                 src="https://i.ibb.co/9w7HLF9/1702063616077-removebg-preview-1.png"
                 alt=""
               />

@@ -8,8 +8,7 @@ import {
 
 const Contact = () => {
   return (
-    <div>
-      <div>
+      <div data-aos="fade-up">
         <section className=" py-10">
           <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
             <div className="w-full mx-auto p-5">
@@ -17,7 +16,7 @@ const Contact = () => {
                 Contact Me
               </h2>
 
-              <form className="max-w-lg mx-auto">
+              <form className="max-w-lg mx-auto " >
                 <div className="mb-4">
                   <label
                     htmlFor="name"
@@ -31,6 +30,7 @@ const Contact = () => {
                     name="name"
                     className="mt-1 p-2 w-full border rounded-md"
                     placeholder="John Doe"
+                    data-aos="fade-left"
                   />
                 </div>
 
@@ -45,8 +45,9 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="mt-1 p-2 w-full border rounded-md"
+                    className="mt-1 p-2 w-full border rounded-md overflow-hidden"
                     placeholder="john@example.com"
+                    data-aos="fade-right"
                   />
                 </div>
 
@@ -61,21 +62,23 @@ const Contact = () => {
                     id="message"
                     name="message"
                     rows="4"
-                    className="mt-1 p-2 w-full border rounded-md"
+                    className="mt-1 p-2 w-full border rounded-md overflow-hidden"
                     placeholder="Type your message here..."
+                    data-aos="fade-left"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
                   className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 w-full sm:w-auto"
+                  data-aos="fade-right"
                 >
                   Send Message
                 </button>
               </form>
             </div>
 
-            <div className="w-full  mt-4 sm:mt-0">
+            <div className="w-full  mt-4 sm:mt-0 overflow-hidden" data-aos="fade-left">
               
               <div className="flex flex-col items-center justify-center h-full">
                 <h3 className="text-xl font-semibold mb-4">Connect with Me</h3>
@@ -110,7 +113,6 @@ const Contact = () => {
           </div>
         </section>
       </div>
-    </div>
   );
 };
 
