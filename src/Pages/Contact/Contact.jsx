@@ -16,7 +16,7 @@ const Contact = () => {
                 Contact Me
               </h2>
 
-              <form className="max-w-lg mx-auto " >
+              <form className="max-w-lg mx-auto lg:pl-10" >
                 <div className="mb-4">
                   <label
                     htmlFor="name"
