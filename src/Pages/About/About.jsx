@@ -41,7 +41,7 @@ const About = () => {
             </div>
             <div></div>
           </div>
-          <div className="mt-7" data-aos="fade-up">
+          <div className="mt-7" >
             <p className="text-lg leading-relaxed">
               Hi there! I'm S M Ibrahim Kayum, a passionate web developer specializing
               in the MERN stack. With a strong foundation in MongoDB,

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    axios.get("./../../../public/projects.json").then((res) => {
+    axios.get('https://task-manager-server-sooty.vercel.app/projects').then((res) => {
       setProjects(res.data);
     });
   }, []);
