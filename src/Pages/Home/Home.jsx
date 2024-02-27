@@ -16,7 +16,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const Home = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    axios.get("https://task-manager-server-sooty.vercel.app/projects").then((res) => {
+    axios.get("https://task-manager-server-xi-pied.vercel.app/projects").then((res) => {
       setProjects(res.data);
     });
   }, []);

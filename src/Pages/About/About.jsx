@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 const About = () => {
     const [skills, setSkills] = useState([])
     useEffect(() => {
-        axios.get('./../../../public/skills.json')
+        axios.get('https://task-manager-server-xi-pied.vercel.app/skills')
         .then(res => {
             setSkills(res.data)
         })
