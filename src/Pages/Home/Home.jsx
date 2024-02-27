@@ -20,7 +20,6 @@ const Home = () => {
       setProjects(res.data);
     });
   }, []);
-  console.log(projects);
   return (
     <div className="p-8 overflow-hidden" data-aos="fade-up">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold" data-aos="fade-left">
